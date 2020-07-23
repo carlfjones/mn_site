@@ -16,14 +16,32 @@ nav {
         height: 50px;
     }
     .nav-links {
+        padding: 0;
+        margin: 0;
         display: flex;
         justify-content: space-around;
         width: 50%;
+        
         a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 8vh;
+            width: 80px;
+            transition: all 0.5s ease;
+            &:hover {
+                color: black;
+            }
             color: white;
             text-decoration: none;
         }
         li {
+            transition: all 0.5s ease;
+            height: 8vh;
+            &:hover {
+                color: black;
+                background-color: white;
+            }
             list-style: none;
         }
         
@@ -61,6 +79,7 @@ nav {
     }
 
     .nav-links li {
+        
         opacity: 0;
     }
     nav .burger {
