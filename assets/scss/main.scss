@@ -2,9 +2,11 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 nav {
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -12,8 +14,10 @@ nav {
     background-color: black;
 
     .logo1 {
-        width: 50px;
-        height: 50px;
+        display: flex;
+        height: 6vh;
+        align-items: center;
+        justify-content: center;
     }
     .nav-links {
         padding: 0;
@@ -39,6 +43,7 @@ nav {
             transition: all 0.5s ease;
             height: 8vh;
             &:hover {
+                cursor: pointer;
                 color: black;
                 background-color: white;
             }
@@ -111,4 +116,127 @@ nav {
 }
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -5px);
+}
+
+// Landing Page
+
+.landing_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    width: 100vw;
+    background-image: url("../imgs/landing_page.jpg");
+    background-size: cover;
+    .landing_page_logo {
+        height: 300px;
+        width: 400px;
+        
+    }
+}
+
+// Heating Plumbing Tiling section
+
+.heat_plumb_tile {
+    a {
+        text-decoration: none;
+    }
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
+    .img_link {
+        transition: transform 2s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 275px;
+        width: 275px;
+        color: white;
+        letter-spacing: 5px;
+        background-color: blueviolet;
+        text-transform: uppercase;
+        &:hover {
+            transform: scale(1.05);
+        }
+        h3 {
+            border: 3px solid white;
+
+            padding: 10px 20px 10px 20px;
+        }
+        
+    }
+    #heat_img {
+        background: url("../imgs/h_p_t_sec/heat.jpg");
+        background-size: cover;
+    }
+    #plumb_img {
+        background: url("../imgs/h_p_t_sec/plumb.jpg");
+        background-size: cover;
+    }
+    #tile_img {
+        background: url("../imgs/h_p_t_sec/tile.jpg");
+        background-size: cover;
+    }
+}
+
+.testimonials {
+    font-weight: 200;
+    font-size: 14px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    height: 30vh;
+    background: white;
+    .testimonial_single {
+        height: 100%;
+        // border: 1px solid rgb(0, 0, 0);
+        .comment {
+            width: 3vw;
+        }
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 25vw;
+        .stars {
+            width:10vw;
+        }
+    }
+}
+
+
+// FOOTER
+
+.footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    color: white;
+    a {
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+    .foot_link {
+        &:hover {
+            border: white 2px solid;
+            padding: 8px;
+        }
+        font-size: 12px;
+        letter-spacing: 5px;
+        font-weight: 400;
+        padding: 10px;
+    }
+    .foot_link_img {
+        margin-top: 10px;
+        width: 20px;
+        height: 20px;
+    }
 }
