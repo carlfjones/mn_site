@@ -148,6 +148,7 @@ nav {
   background: white; }
   .testimonials .testimonial_single {
     height: 100%;
+    border: 1px solid black;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -156,6 +157,9 @@ nav {
     width: 25vw; }
     .testimonials .testimonial_single .comment {
       width: 3vw; }
+    .testimonials .testimonial_single .name {
+      font-size: 10px;
+      font-style: italic; }
     .testimonials .testimonial_single .stars {
       width: 10vw; }
 
