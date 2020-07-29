@@ -92,38 +92,6 @@ nav {
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -5px); }
 
-.landing {
-  background-color: white;
-  height: 90vh;
-  display: grid;
-  overflow: hidden;
-  grid-template-columns: repeat(3, 33.4vw);
-  grid-template-rows: repeat(2, 40vh); }
-  .landing .back_img1 {
-    background-image: url("../imgs/about/2.png");
-    background-size: cover;
-    background-position: right;
-    grid-area: 1 / 1 / 3 / 2; }
-  .landing .about_section {
-    padding-top: 50px;
-    text-align: justify;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    grid-area: 1 / 2 / 3 / 3; }
-    .landing .about_section h2 {
-      letter-spacing: 5px; }
-    .landing .about_section .matt_img {
-      width: 200px;
-      border-radius: 50%; }
-  .landing .back_img2 {
-    margin-left: 50px;
-    background-image: url("../imgs/about/1.png");
-    background-position: left;
-    background-size: cover;
-    grid-area: 1 / 3 / 3 / 4; }
-
 .footer {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -150,4 +118,4 @@ nav {
     width: 20px;
     height: 20px; }
 
-/*# sourceMappingURL=about.css.map */
+/*# sourceMappingURL=contact.css.map */

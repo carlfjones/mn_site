@@ -121,7 +121,7 @@ nav {
 
 .landing {
     background-color: white;
-    height: 80vh;
+    height: 90vh;
     display: grid;
     overflow: hidden;
     grid-template-columns: repeat(3, 33.4vw);
@@ -134,8 +134,13 @@ nav {
         grid-area: 1 / 1 / 3 / 2;
     }
     .about_section {
+        padding-top: 50px;
         h2 {
             letter-spacing: 5px;
+        }
+        .matt_img {
+            width: 200px;
+            border-radius: 50%;
         }
         text-align: justify;
         display: flex;

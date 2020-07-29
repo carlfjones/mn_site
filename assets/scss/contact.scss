@@ -118,101 +118,23 @@ nav {
     transform: rotate(45deg) translate(-5px, -5px);
 }
 
-// Landing Page
-
-.landing_page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 92vh;
-    width: 100vw;
-    background-image: url("../imgs/landing_page.jpg");
-    background-size: cover;
-    .landing_page_logo {
-        height: 300px;
-        width: 400px;
-        
-    }
-}
-
-// Heating Plumbing Tiling section
-
-.heat_plumb_tile {
-    a {
-        text-decoration: none;
-    }
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 60vh;
-    .img_link {
-        transition: transform 2s;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 275px;
-        width: 275px;
-        color: white;
-        letter-spacing: 5px;
-        background-color: blueviolet;
-        text-transform: uppercase;
-        &:hover {
-            transform: scale(1.07);
-        }
-        h3 {
-            border: 3px solid white;
-
-            padding: 10px 20px 10px 20px;
-        }
-        
-    }
-    #heat_img {
-        background: url("../imgs/h_p_t_sec/heat.jpg");
-        background-size: cover;
-    }
-    #plumb_img {
-        background: url("../imgs/h_p_t_sec/plumb.jpg");
-        background-size: cover;
-    }
-    #tile_img {
-        background: url("../imgs/h_p_t_sec/tile.jpg");
-        background-size: cover;
-    }
-}
-
-.testimonials {
-    font-weight: 200;
-    font-size: 14px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: repeat(4, 1fr);
-    height: 30vh;
-    background: white;
-    .testimonial_single {
-        height: 100%;
-        border: 1px solid rgb(0, 0, 0);
-        .comment {
-            width: 3vw;
-        }
-        .name {
-            font-size: 10px;
-            font-style: italic;
-        }
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 25vw;
-        .stars {
-            width:10vw;
-        }
-    }
-}
 
 
-// FOOTER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// FOOTER 
 
 .footer {
     margin-top: 30px;

@@ -92,6 +92,15 @@ nav {
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -5px); }
 
+.gallery_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .gallery_title .icon {
+    height: 20px;
+    margin-bottom: 100px; }
+
 .gallery_title h2 {
   display: flex;
   justify-content: center;
