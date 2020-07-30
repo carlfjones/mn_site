@@ -148,7 +148,6 @@ nav {
   background: white; }
   .testimonials .testimonial_single {
     height: 100%;
-    border: 1px solid black;
     text-align: center;
     display: flex;
     flex-direction: column;
