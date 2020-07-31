@@ -53,12 +53,16 @@ nav {
   body {
     overflow-x: hidden; }
 
+  .site_wrapper {
+    overflow: hidden;
+    position: relative; }
+
   .nav-links {
     margin: 0;
     padding: 0;
     position: absolute;
     right: 0px;
-    height: 92vh;
+    height: 80vh;
     top: 8vh;
     background-color: black;
     display: flex;

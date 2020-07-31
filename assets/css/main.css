@@ -53,12 +53,16 @@ nav {
   body {
     overflow-x: hidden; }
 
+  .site_wrapper {
+    overflow: hidden;
+    position: relative; }
+
   .nav-links {
     margin: 0;
     padding: 0;
     position: absolute;
     right: 0px;
-    height: 92vh;
+    height: 80vh;
     top: 8vh;
     background-color: black;
     display: flex;
@@ -103,6 +107,14 @@ nav {
   .landing_page .landing_page_logo {
     height: 300px;
     width: 400px; }
+    @media only screen and (max-width: 850px) {
+      .landing_page .landing_page_logo {
+        height: 200px;
+        width: 300px;
+        padding-bottom: 100px; } }
+  @media only screen and (max-width: 850px) {
+    .landing_page {
+      height: 80vh; } }
 
 .heat_plumb_tile {
   display: flex;
@@ -111,6 +123,10 @@ nav {
   height: 60vh; }
   .heat_plumb_tile a {
     text-decoration: none; }
+  @media only screen and (max-width: 850px) {
+    .heat_plumb_tile {
+      flex-direction: column;
+      height: auto; } }
   .heat_plumb_tile .img_link {
     transition: transform 2s;
     display: flex;
@@ -124,18 +140,31 @@ nav {
     text-transform: uppercase; }
     .heat_plumb_tile .img_link:hover {
       transform: scale(1.07); }
+      @media only screen and (max-width: 500px) {
+        .heat_plumb_tile .img_link:hover {
+          transform: none; } }
     .heat_plumb_tile .img_link h3 {
       border: 3px solid white;
       padding: 10px 20px 10px 20px; }
   .heat_plumb_tile #heat_img {
     background: url("../imgs/h_p_t_sec/heat.jpg");
     background-size: cover; }
+    @media screen and (max-width: 850px) {
+      .heat_plumb_tile #heat_img {
+        margin-top: 40px; } }
   .heat_plumb_tile #plumb_img {
     background: url("../imgs/h_p_t_sec/plumb.jpg");
     background-size: cover; }
+    @media screen and (max-width: 850px) {
+      .heat_plumb_tile #plumb_img {
+        margin-top: 40px; } }
   .heat_plumb_tile #tile_img {
     background: url("../imgs/h_p_t_sec/tile.jpg");
     background-size: cover; }
+    @media screen and (max-width: 850px) {
+      .heat_plumb_tile #tile_img {
+        margin-top: 40px;
+        margin-bottom: 40px; } }
 
 .testimonials {
   font-weight: 200;
@@ -146,6 +175,12 @@ nav {
   grid-template-columns: repeat(4, 1fr);
   height: 30vh;
   background: white; }
+  @media screen and (max-width: 850px) {
+    .testimonials {
+      height: auto;
+      grid-template-columns: repeat(2, 1fr);
+      padding: 20px;
+      grid-row-gap: 30px; } }
   .testimonials .testimonial_single {
     height: 100%;
     text-align: center;
@@ -161,6 +196,10 @@ nav {
       font-style: italic; }
     .testimonials .testimonial_single .stars {
       width: 10vw; }
+    @media screen and (max-width: 850px) {
+      .testimonials .testimonial_single {
+        justify-self: center;
+        align-self: center; } }
 
 .footer {
   margin-top: 30px;

@@ -6,7 +6,6 @@ body {
 }
 
 nav {
-    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -68,12 +67,16 @@ nav {
     body {
         overflow-x: hidden;
     }
+    .site_wrapper {
+        overflow: hidden;
+        position: relative;
+    }
     .nav-links {
         margin: 0;
         padding: 0;
         position: absolute;
         right: 0px;
-        height: 92vh;
+        height: 80vh;
         top: 8vh;
         background-color: black;
         display: flex;
@@ -84,7 +87,6 @@ nav {
     }
 
     .nav-links li {
-        
         opacity: 0;
     }
     nav .burger {
@@ -117,6 +119,7 @@ nav {
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -5px);
 }
+
 
 // Landing section
 
