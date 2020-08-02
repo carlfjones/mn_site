@@ -103,10 +103,10 @@ nav {
   overflow: hidden;
   grid-template-columns: repeat(3, 33.4vw);
   grid-template-rows: 30vh 60vh; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     .landing {
       grid-template-columns: 100vw;
-      grid-template-rows: 40vh 50vh;
+      grid-template-rows: 500px 500px;
       background-color: black; } }
   .landing .back_img1 {
     background-color: black;
@@ -114,7 +114,7 @@ nav {
     height: 90vh;
     background-position: right;
     grid-area: 1 / 1 / 3 / 2; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 850px) {
       .landing .back_img1 {
         display: none; } }
   .landing h2 {
@@ -128,7 +128,7 @@ nav {
     color: white;
     grid-area: 1 / 1 / 2 / 3;
     z-index: 1; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 850px) {
       .landing h2 {
         grid-area: 1 / 1 / 2 / 2; } }
   .landing .about_section {
@@ -147,7 +147,7 @@ nav {
     background: url("../imgs/about/matt_img.jpg");
     background-size: cover;
     background-position: center; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 850px) {
       .landing .matt_img {
         grid-area: 1 / 1 / 2 / 2; } }
   .landing .back_img2 {
@@ -155,7 +155,7 @@ nav {
     background-image: url("../imgs/about/1.png");
     background-position: left;
     background-size: cover; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 850px) {
       .landing .back_img2 {
         display: none; } }
 
